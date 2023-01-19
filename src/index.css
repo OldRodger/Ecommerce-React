@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary-light: #CBA170;
+  --color-primary-dark: #4D4137;
+  --color-secondary: #774333;
+  --color-gray: #CFCED2;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #252525;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+button,
+a {
+  font-family: inherit;
+}
+
+.icon {
+  font-size: 3.8rem !important;
+  font-weight: 300 !important;
+}
+
+.row {
+  max-width: 114rem;
+  margin: 5rem auto;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem 1.5rem;
+}
